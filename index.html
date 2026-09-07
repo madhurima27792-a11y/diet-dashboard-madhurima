@@ -1,1 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#103b2f">
+<title>Madhurima's Weekly Diet Dashboard</title>
+<style>
+:root{--bg:#071b15;--card:#0d2a21;--card2:#12362b;--text:#f2fbf6;--muted:#a9c5b7;--green:#55c58a;--teal:#3fc5b3;--veg:#f39a4a;--border:#244c3f;--danger:#f08368}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#061710,#0a2119 45%,#071b15);color:var(--text);line-height:1.45}.wrap{max-width:760px;margin:0 auto;padding:16px 14px 44px}.hero{background:linear-gradient(135deg,#123d30,#0c2a21);border:1px solid var(--border);border-radius:22px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.22)}h1{font-size:28px;line-height:1.1;margin:0 0 6px}.sub{color:var(--muted);font-size:14px}.targets{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}.metric{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:14px;padding:10px;text-align:center}.metric b{display:block;font-size:19px}.metric span{font-size:11px;color:var(--muted)}.pillrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.pill{padding:7px 10px;border-radius:999px;font-size:12px;border:1px solid var(--border);color:var(--muted)}.section{margin-top:18px}.section h2{font-size:18px;margin:0 0 9px}.day{border:1px solid var(--border);border-radius:18px;background:var(--card);margin:10px 0;overflow:hidden}.day summary{list-style:none;cursor:pointer;padding:14px 15px;font-weight:700}.day summary::-webkit-details-marker{display:none}.day summary .tag{float:right;font-size:11px;padding:5px 8px;border-radius:999px}.nonveg{background:rgba(63,197,179,.15);color:var(--teal);border:1px solid rgba(63,197,179,.35)}.veg{background:rgba(243,154,74,.15);color:var(--veg);border:1px solid rgba(243,154,74,.35)}.meals{padding:0 15px 14px}.meal{display:grid;grid-template-columns:1fr auto;gap:8px;padding:11px 0;border-top:1px solid rgba(255,255,255,.06)}.meal:first-child{border-top:0}.meal strong{display:block;font-size:14px}.meal small{display:block;color:var(--muted);font-size:12px;margin-top:2px}.meal .kcal{font-size:12px;color:var(--green);white-space:nowrap}.check{width:18px;height:18px;accent-color:var(--green);vertical-align:-4px;margin-right:7px}.grid{display:grid;gap:10px}.box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:13px 15px}.box ul{margin:7px 0 0 19px;padding:0}.box li{margin:5px 0;color:#d7e9e0;font-size:13px}.subgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.note{font-size:12px;color:var(--muted);margin-top:8px}.tracker{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tracker input{width:100%;padding:10px;background:#081c16;border:1px solid var(--border);border-radius:10px;color:var(--text)}.footer{margin-top:18px;color:var(--muted);font-size:11px;text-align:center}.accent{color:var(--green)}
+@media(max-width:520px){.targets{grid-template-columns:repeat(2,1fr)}.subgrid,.tracker{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<h1>Madhurima's Diet Dashboard</h1>
+<div class="sub">82 kg → initial target 70–72 kg · Goal: sustainable fat loss</div>
+<div class="targets">
+<div class="metric"><b>1,700</b><span>kcal/day</span></div>
+<div class="metric"><b>110 g</b><span>protein</span></div>
+<div class="metric"><b>185 g</b><span>carbs</span></div>
+<div class="metric"><b>55 g</b><span>fat</span></div>
+</div>
+<div class="pillrow"><span class="pill">Low-GI</span><span class="pill">Fatty-liver friendly</span><span class="pill">Bloat-aware</span><span class="pill">Updated 7 Sep 2026</span></div>
+</header>
 
+<section class="section"><h2>Daily rules</h2><div class="box"><ul>
+<li>Build every meal around protein + fiber + measured complex carbohydrate.</li>
+<li>Prefer oats, millets, quinoa and controlled portions of roti/rice; avoid sugar, sweets, refined flour and sweet drinks.</li>
+<li>Use cooked lauki, torai, zucchini, carrots and spinach. Keep raw salads small, especially at night.</li>
+<li>On vegetarian days, use yellow moong dal tempered with hing + jeera; keep portions steady.</li>
+<li>Use about 2–3 tsp/day total added oil, favoring mustard/olive oil; include small walnut/flax portions.</li>
+<li>Hydrate through the day. For bloating, use ginger, ajwain or fennel as tolerated.</li>
+</ul></div></section>
+
+<section class="section"><h2>Weekly plan</h2>
+<details class="day" open><summary>Sunday <span class="tag nonveg">NON-VEG</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Masala egg-oats bowl</strong><small>2 eggs + 40 g dry oats cooked with spinach/carrot + 1 tsp flaxseed</small></div><span class="kcal">~380 kcal · ~24 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Chicken roti plate</strong><small>120 g cooked skinless chicken + 2 small whole-wheat rotis + 1 cup lauki/tori + ½ cup plain curd</small></div><span class="kcal">~540 kcal · ~48 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Smart snack</strong><small>1 small guava + 15 g walnuts</small></div><span class="kcal">~170 kcal · ~4 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Moong & chicken soup plate</strong><small>90 g cooked chicken + ¾ cup yellow moong dal + 1 cup cooked zucchini/carrot</small></div><span class="kcal">~470 kcal · ~42 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Digestive finish</strong><small>150 ml unsweetened buttermilk or warm fennel-ginger infusion</small></div><span class="kcal">~60 kcal · ~3 g P</span></div></div></details>
+
+<details class="day"><summary>Monday <span class="tag nonveg">NON-VEG</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Veg omelette + toast</strong><small>2 eggs + 2 egg whites with cooked spinach/carrot + 1 slice 100% whole-grain toast + 1 tsp olive oil</small></div><span class="kcal">~360 kcal · ~28 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Chicken quinoa bowl</strong><small>120 g chicken + ¾ cup cooked quinoa + 1 cup lauki/zucchini + ½ cup curd</small></div><span class="kcal">~520 kcal · ~48 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Roasted chana</strong><small>25 g roasted chana + unsweetened ginger tea</small></div><span class="kcal">~120 kcal · ~6 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Chicken moong khichdi</strong><small>90 g chicken + ¾ cup cooked yellow moong + ½ cup cooked rice + carrots/spinach</small></div><span class="kcal">~500 kcal · ~41 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Fennel routine</strong><small>150–200 ml warm saunf water</small></div><span class="kcal">~0 kcal</span></div></div></details>
+
+<details class="day"><summary>Tuesday <span class="tag veg">VEGETARIAN</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Moong chilla breakfast</strong><small>2 medium yellow-moong chillas + 80 g hung curd + coriander/ginger</small></div><span class="kcal">~360 kcal · ~22 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Dal-roti plate</strong><small>1 cup yellow moong dal + 2 small rotis + 1 cup lauki + ½ cup curd</small></div><span class="kcal">~520 kcal · ~25 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Fruit + seeds</strong><small>1 small orange/guava + 1 tbsp pumpkin seeds</small></div><span class="kcal">~140 kcal · ~5 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Moong quinoa bowl</strong><small>¾ cup yellow moong + ½ cup cooked quinoa + 1 cup zucchini/carrot + ½ tsp olive oil</small></div><span class="kcal">~430 kcal · ~21 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Digestive finish</strong><small>Warm ajwain-fennel infusion</small></div><span class="kcal">~0 kcal</span></div></div></details>
+
+<details class="day"><summary>Wednesday <span class="tag nonveg">NON-VEG</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Oats & egg bowl</strong><small>45 g dry oats + 2 eggs + cooked spinach/carrot + 1 tsp ground flax</small></div><span class="kcal">~390 kcal · ~24 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Chicken dal-roti</strong><small>100 g chicken + ½ cup yellow moong + 2 small rotis + 1 cup cooked veg</small></div><span class="kcal">~560 kcal · ~48 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Curd & nuts</strong><small>150 g plain curd + 10 g walnuts</small></div><span class="kcal">~150 kcal · ~7 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Chicken quinoa veg bowl</strong><small>90 g chicken + ½ cup quinoa + 1–1½ cups cooked zucchini/lauki</small></div><span class="kcal">~430 kcal · ~37 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Ginger-fennel</strong><small>Warm infusion; no sugar or honey</small></div><span class="kcal">~0 kcal</span></div></div></details>
+
+<details class="day"><summary>Thursday <span class="tag nonveg">NON-VEG</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Egg vegetable scramble</strong><small>2 eggs + 2 egg whites + cooked spinach/carrot + 1 small roti</small></div><span class="kcal">~350 kcal · ~29 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Chicken millet plate</strong><small>120 g chicken + ¾ cup cooked millet + 1 cup torai/lauki + ½ cup curd</small></div><span class="kcal">~530 kcal · ~48 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Apple + walnuts</strong><small>1 small apple + 15 g walnuts</small></div><span class="kcal">~180 kcal · ~3 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Chicken moong soup</strong><small>100 g chicken + ¾ cup yellow moong + 1½ cups cooked vegetables</small></div><span class="kcal">~430 kcal · ~43 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Saunf</strong><small>Warm fennel water</small></div><span class="kcal">~0 kcal</span></div></div></details>
+
+<details class="day"><summary>Friday <span class="tag nonveg">NON-VEG</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Overnight oats + eggs</strong><small>40 g oats + 150 g unsweetened curd + cinnamon + 2 boiled eggs</small></div><span class="kcal">~400 kcal · ~27 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Chicken roti bowl</strong><small>120 g chicken + 2 small rotis + 1 cup cooked carrot/zucchini + ½ cup curd</small></div><span class="kcal">~520 kcal · ~47 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Roasted makhana</strong><small>20 g dry makhana, lightly roasted + ginger tea</small></div><span class="kcal">~80 kcal · ~2 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Chicken quinoa khichdi</strong><small>90 g chicken + ½ cup quinoa + ½ cup yellow moong + cooked spinach</small></div><span class="kcal">~470 kcal · ~42 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Ajwain-fennel</strong><small>Warm infusion</small></div><span class="kcal">~0 kcal</span></div></div></details>
+
+<details class="day"><summary>Saturday <span class="tag veg">VEGETARIAN</span></summary><div class="meals">
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 AM — Besan-millet chilla</strong><small>2 medium chillas made with 40 g besan + 20 g millet flour, stuffed with cooked spinach; 80 g curd</small></div><span class="kcal">~360 kcal · ~19 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>1 PM — Moong dal-rice plate</strong><small>1 cup yellow moong dal + ½ cup cooked brown rice + 1 cup lauki/tori + ½ cup curd</small></div><span class="kcal">~500 kcal · ~24 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>5 PM — Pear + pumpkin seeds</strong><small>1 small pear + 1 tbsp pumpkin seeds</small></div><span class="kcal">~160 kcal · ~5 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>8 PM — Moong-millet khichdi</strong><small>¾ cup yellow moong + ½ cup cooked millet + 1–1½ cups cooked zucchini/carrot</small></div><span class="kcal">~430 kcal · ~20 g P</span></div>
+<div class="meal"><div><input class="check" type="checkbox"><strong>10 PM — Digestive finish</strong><small>Warm saunf-ginger infusion</small></div><span class="kcal">~0 kcal</span></div></div></details>
+</section>
+
+<section class="section"><h2>Anti-bloating essentials</h2><div class="subgrid">
+<div class="box"><b>Prefer</b><ul><li>Cooked lauki, torai, zucchini</li><li>Well-cooked carrots/spinach</li><li>Yellow moong with hing + jeera</li><li>Ginger, ajwain, fennel</li></ul></div>
+<div class="box"><b>Limit</b><ul><li>Large raw salads late evening</li><li>Heavy unfermented dals</li><li>Fried/processed foods</li><li>Sugary drinks & desserts</li></ul></div>
+</div></section>
+
+<section class="section"><h2>Shopping list</h2><div class="box"><ul><li>Eggs, skinless chicken, plain curd/hung curd</li><li>Yellow moong dal, oats, quinoa, millet flour/bajra/ragi, whole-wheat atta</li><li>Lauki, torai, zucchini, carrots, spinach, ginger, coriander</li><li>Guava/orange/apple/pear; keep fruit to 1 serving at a time</li><li>Walnuts, flaxseed, pumpkin seeds, makhana</li><li>Jeera, hing, ajwain, saunf, cinnamon; mustard/olive oil</li></ul></div></section>
+
+<section class="section"><h2>Substitutions</h2><div class="box"><ul><li>Chicken ↔ 2 eggs + 2 whites or 150 g firm tofu on non-veg days.</li><li>Quinoa ↔ cooked millet; ½–¾ cup cooked portion.</li><li>Roti ↔ ½–¾ cup cooked brown rice; pair with protein.</li><li>Curd ↔ lactose-free curd/unsweetened high-protein yogurt if tolerated.</li><li>Guava/apple/pear/orange ↔ another whole fruit of similar portion; avoid juice.</li></ul><div class="note">For persistent bloating, dairy or any food that repeatedly worsens symptoms should be reduced and discussed with your clinician/dietitian.</div></div></section>
+
+<section class="section"><h2>Progress tracker</h2><div class="box"><div class="tracker"><label>Date<input type="date" id="d"></label><label>Weight (kg)<input type="number" step="0.1" id="w" placeholder="82.0"></label></div><p class="note">Aim for a gradual trend rather than day-to-day changes. Record under similar conditions each time.</p></div></section>
+
+<footer class="footer">This dashboard is educational and not a substitute for individualized medical care. With prediabetes and fatty liver, keep regular clinical follow-up and medication guidance unchanged unless your clinician advises otherwise.</footer>
+</div>
+<script>
+const key='madhurima-diet-checks';
+const checks=[...document.querySelectorAll('.check')];
+const saved=JSON.parse(localStorage.getItem(key)||'[]'); checks.forEach((c,i)=>c.checked=!!saved[i]);
+checks.forEach((c,i)=>c.addEventListener('change',()=>{saved[i]=c.checked;localStorage.setItem(key,JSON.stringify(saved));}));
+document.getElementById('d').value=new Date().toISOString().slice(0,10);
+</script>
+</body></html>
